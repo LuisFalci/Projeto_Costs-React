@@ -2,6 +2,7 @@ import "./App.css";
 import HelloWorld from "./components/HelloWorld";
 import SayMyName from "./components/SayMyName";
 import Pessoa from "./components/Pessoa";
+import List from "./components/List";
 
 function App() {
   const name = "Luis";
@@ -30,6 +31,8 @@ function App() {
         profissao="estudante"
         foto="https://fw.atarde.uol.com.br/2021/11/750_jovem-exame-pm_20211162093361.jpg"
       />
+      
+      <List />
     </div>
   );
 }
