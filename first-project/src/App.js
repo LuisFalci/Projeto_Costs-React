@@ -3,6 +3,8 @@ import HelloWorld from "./components/HelloWorld";
 import SayMyName from "./components/SayMyName";
 import Pessoa from "./components/Pessoa";
 import List from "./components/List";
+import Evento from "./components/Evento";
+import Form from "./components/Form";
 
 function App() {
   const name = "Luis";
@@ -17,6 +19,8 @@ function App() {
 
   return (
     <div className="App">
+      <Evento />
+      <Form />
       <h1>Olá, {newName}</h1>
       <h1>Soma, {sum(1, 2)}</h1>
       <img src={url} alt="Minha Imagem" />
