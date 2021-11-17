@@ -6,10 +6,12 @@ import List from "./components/List";
 import Evento from "./components/Evento";
 import Form from "./components/Form";
 import Condicional from "./components/Condicional";
+import OutraLista from "./components/OutraLista";
 
 function App() {
   const name = "Luis";
   const newName = name.toUpperCase();
+  const meusItens = ['Reaact', 'Vue', 'Angular']
 
   function sum(a, b) {
     return a + b;
@@ -40,6 +42,10 @@ function App() {
       <List />
       <br />
       <Condicional />
+
+      <h1>Renderização de Listas</h1>
+      <OutraLista itens={meusItens} />
+
     </div>
   );
 }
