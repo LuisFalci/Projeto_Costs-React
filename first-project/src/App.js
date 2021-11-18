@@ -7,15 +7,11 @@ import Evento from "./components/Evento";
 import Form from "./components/Form";
 import Condicional from "./components/Condicional";
 import OutraLista from "./components/OutraLista";
-import { useState } from "react";
-import SeuNome from "./components/SeuNome";
-import Saudacao from "./components/Saudacao";
 
 function App() {
   const name = "Luis";
   const newName = name.toUpperCase();
   const meusItens = ['Reaact', 'Vue', 'Angular']
-  const [nome, setNome] = useState()
 
   function sum(a, b) {
     return a + b;
@@ -49,14 +45,6 @@ function App() {
 
       <h1>Renderização de Listas</h1>
       <OutraLista itens={meusItens} />
-      <br />
-      <h1>State Lift</h1>
-      <SeuNome setNome={setNome} />
-      {nome}
-      <Saudacao nome={nome} /> 
-      {/* Em SeuNome setamos um nome
-          Em Saudacao damos get do nome
-      */}
 
     </div>
   );
