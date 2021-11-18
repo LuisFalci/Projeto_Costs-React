@@ -11,6 +11,7 @@ function Home(){
         <LinkButton to="/newproject" text="Criar Projeto" /> 
         <img src={savings} alt="Costs" srcset=""/>
     </section>
+    
     )
 }
 
