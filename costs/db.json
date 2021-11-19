@@ -1,25 +1,44 @@
 {
-    "projects": [],
-    "categorias":[
-        {
-            "id":1,
-            "name": "A"
-        },
-        {
-            "id":2,
-            "name": "B"
-        },
-        {
-            "id":3,
-            "name": "C"
-        },
-        {
-            "id":4,
-            "name": "D"
-        },
-        {
-            "id":5,
-            "name": "E"
-        }
-    ]
+  "projects": [
+    {
+      "budget": "1234",
+      "name": "weqrewerw",
+      "category": {
+        "id": "1",
+        "name": "A"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Minecraft",
+      "budget": "123",
+      "cost": 0,
+      "services": [],
+      "id": 2
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "name": "A"
+    },
+    {
+      "id": 2,
+      "name": "B"
+    },
+    {
+      "id": 3,
+      "name": "C"
+    },
+    {
+      "id": 4,
+      "name": "D"
+    },
+    {
+      "id": 5,
+      "name": "E"
+    }
+  ]
 }
