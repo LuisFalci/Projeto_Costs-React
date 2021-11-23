@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "budget": "1234",
-      "name": "weqrewerw",
+      "name": "Minecraft",
+      "budget": "12345",
       "category": {
         "id": "1",
         "name": "A"
@@ -12,22 +12,15 @@
       "id": 1
     },
     {
-      "name": "Minecraft",
-      "budget": "123",
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "Minecrafts",
-      "budget": "111111",
+      "name": "GTA 5",
+      "budget": "3425342532",
       "category": {
         "id": "4",
         "name": "D"
       },
       "cost": 0,
       "services": [],
-      "id": 3
+      "id": 2
     }
   ],
   "categorias": [
