@@ -21,6 +21,17 @@
       "cost": 0,
       "services": [],
       "id": 2
+    },
+    {
+      "name": "Cuzinho do Greggio",
+      "budget": "0.99",
+      "category": {
+        "id": "5",
+        "name": "E"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categorias": [
