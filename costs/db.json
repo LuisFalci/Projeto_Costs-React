@@ -10,6 +10,28 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "luis",
+      "budget": "1432",
+      "category": {
+        "id": "4",
+        "name": "D"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Clebi",
+      "budget": "43534543",
+      "category": {
+        "id": "4",
+        "name": "D"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categorias": [

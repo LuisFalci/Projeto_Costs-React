@@ -6,6 +6,7 @@ import Company from './components/pages/Company';
 import Contact from './components/pages/Contact';
 import Home from './components/pages/Home';
 import NewProject from './components/pages/NewProject';
+import Project from './components/pages/Project';
 import Projects from './components/pages/Projects';
 
 function App() {
@@ -15,10 +16,12 @@ function App() {
       <Switch>
         <Container customClass="min-height">
           <Route exact path="/"><Home /></Route>  
-          <Route exact path="/projects"><Projects /></Route>
-          <Route exact path="/company"><Company /></Route>
-          <Route exact path="/contact"><Contact /></Route>
-          <Route exact path="/newproject"><NewProject /></Route>
+          <Route path="/projects"><Projects /></Route>
+          <Route path="/company"><Company /></Route>
+          <Route path="/contact"><Contact /></Route>
+          <Route path="/newproject"><NewProject /></Route>
+          {/* o /:id no fim da rota faz o compilador entender que algo vira para a url dinamicamente*/}
+          <Route path="/project/:id"><Project /></Route>
         </Container>
       </Switch>
       <Footer />
