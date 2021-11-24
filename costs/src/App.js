@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Container from './components/layout/Container';
 import Footer from './components/layout/Footer';
 import Navbar from './components/layout/Navbar';
@@ -13,17 +13,18 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Container customClass="min-height">
-          <Route exact path="/"><Home /></Route>  
-          <Route path="/projects"><Projects /></Route>
-          <Route path="/company"><Company /></Route>
-          <Route path="/contact"><Contact /></Route>
-          <Route path="/newproject"><NewProject /></Route>
+      <Container customClass="min-height">
+      <Routes>
+        
+          <Route path="/" element={<Home />}></Route>  
+          <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/company" element={<Company />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/newproject" element={<NewProject />}></Route>
           {/* o /:id no fim da rota faz o compilador entender que algo vira para a url dinamicamente*/}
-          <Route path="/project/:id"><Project /></Route>
-        </Container>
-      </Switch>
+          <Route path="/project/:id" element={<Project />}></Route>
+      </Routes>
+      </Container>
       <Footer />
     </Router>
   )
