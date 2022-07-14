@@ -9,16 +9,6 @@ import NewProject from './components/pages/NewProject';
 import Project from './components/pages/Project';
 import Projects from './components/pages/Projects';
 
-
-
-
-
-
-
-
-
-
-
 function App() {
   return (
     <Router>
