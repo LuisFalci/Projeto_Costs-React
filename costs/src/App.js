@@ -22,8 +22,6 @@ function App() {
           <Route path="/newproject" element={<NewProject />}></Route>
           {/* o /:id no fim da rota faz o compilador entender que algo vira para a url dinamicamente*/}
           <Route path="/project/:id" element={<Project />}></Route>
-
-
       </Routes>
       </Container>
       <Footer />
