@@ -4,9 +4,6 @@ function Empresa(){
             <h1>Empresa</h1>
             <p>Conteúdo da Página</p>
         </div>
-        
-        
-        
     )
 }
 
