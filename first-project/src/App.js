@@ -13,11 +13,6 @@ function App() {
       <Route path="/" element={<Home/>}></Route>
       <Route path="/empresa" element={<Empresa/>}></Route>
       <Route path="/contato" element={<Contato/>}></Route>
-
-
-
-
-
       </Routes>
       <Footer />
     </Router>
